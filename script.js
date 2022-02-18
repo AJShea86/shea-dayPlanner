@@ -22,11 +22,15 @@ var addButton = $(".addButton");
 
 //if this button is clicked we need to save the input and display it to the console
 
-addButton.on("click", function() {
-    localStorage.setItem("input", hourOneInput);
-    console.log(input)
+addButton.on("click", saveToDo); //adds click to the "add to calendar buttons"
 
-})
+
+
+localStorage.setItem("input", inputOne);
+
+
+  
+
 
 
 
