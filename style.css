@@ -70,73 +70,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-#hourOne {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-
-#hourTwo {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-#hourThree {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-#hourFour {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-#hourFive {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-#hourSix {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-#hourSeven {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-#hourEight {
-  height: 80px;
-  width: 80vw;
-  background-color: lightgreen;
-  border: 3px solid blue; 
-  margin: 5px;
-
-}
-#hourNine {
-  height: 80px;
+.hours {
   width: 80vw;
   background-color: lightgreen;
   border: 3px solid blue; 
