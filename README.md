@@ -4,3 +4,4 @@ https://ajshea86.github.io/shea-dayPlanner/
 
 https://github.com/AJShea86/shea-dayPlanner
 
+![screenshot](https://user-images.githubusercontent.com/97988155/154788972-707a1046-6991-4f04-8325-640c02e6811a.png)
