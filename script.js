@@ -24,6 +24,7 @@ var savedDataFourteen = document.getElementById("savedDataFourteen");
 var savedDataFifteen = document.getElementById("savedDataFifteen");
 var savedDataSixteen = document.getElementById("savedDataSixteen");
 var savedDataSeventeen = document.getElementById("savedDataSeventeen");
+var clockElement = document.getElementById('clock');
 
 
 // inputs
@@ -64,35 +65,31 @@ addToSeventeen.addEventListener("click", storeInputSeventeen);
 
 
 
-/////functions for each hour
+/////functions to save and display items entered into the text area
 function storeInputNine (){
     var inputValueNine = inputNine.value;
     localStorage.setItem("nine", inputValueNine)
     savedDataNine.textContent = inputValueNine;
     inputNine.value = ""
 }
-
 function storeInputTen (){
     var inputValueTen = inputTen.value;
     localStorage.setItem("ten", inputValueTen)
     savedDataTen.textContent = inputValueTen;
     inputTen.value = ""
 }
-
 function storeInputEleven (){
     var inputValueEleven = inputEleven.value;
     localStorage.setItem("eleven", inputValueEleven)
     savedDataEleven.textContent = inputValueEleven;
     inputEleven.value = ""
 }
-
 function storeInputTwelve (){
     var inputValueTwelve = inputTwelve.value;
     localStorage.setItem("Twelve", inputValueTwelve)
     savedDataTwelve.textContent = inputValueTwelve;
     inputTwelve.value = ""
 }
-
 function storeInputThirteen (){
     var inputValueThirteen = inputThirteen.value;
     localStorage.setItem("Thirteen", inputValueThirteen)
@@ -105,21 +102,18 @@ function storeInputFourteen (){
     savedDataFourteen.textContent = inputValueFourteen;
     inputFourteen.value = ""
 }
-
 function storeInputFifteen (){
     var inputValueFifteen = inputFifteen.value;
     localStorage.setItem("Fifteen", inputValueFifteen)
     savedDataFifteen.textContent = inputValueFifteen;
     inputFifteen.value = ""
 }
-
 function storeInputSixteen (){
     var inputValueSixteen = inputSixteen.value;
     localStorage.setItem("Sixteen", inputValueSixteen)
     savedDataSixteen.textContent = inputValueSixteen;
     inputSixteen.value = ""
 }
-
 function storeInputSeventeen (){
     var inputValueSeventeen = inputSeventeen.value;
     localStorage.setItem("Seventeen", inputValueSeventeen)
@@ -130,6 +124,15 @@ function storeInputSeventeen (){
 
 
 
+
+
+
+
+//function that displays the date and time
+function clock() {
+    clockElement.textContent = new Date().toString();
+}
+setInterval(clock, 1000);
 
   
 

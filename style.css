@@ -71,10 +71,10 @@ textarea {
 }
 
 .hours {
-  width: 80vw;
+   width: 80vw;
   background-color: lightgreen;
   border: 3px solid blue; 
-  margin: 5px;
+  margin: 5px;  
 
 }
 
@@ -83,3 +83,14 @@ textarea {
   flex-direction: column;
 }  
 
+#clock {
+  font-size: 20px;
+}
+
+.box {
+  padding: 5px;
+}
+
+.hours {
+  padding: 10px;
+}
