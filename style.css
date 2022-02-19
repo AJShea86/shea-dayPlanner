@@ -7,10 +7,12 @@ body {
 
 .jumbotron {
   text-align: center;
-  background-color: rgb(238, 238, 238);
+  background-image: url(https://images.unsplash.com/photo-1508614999368-9260051292e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHN1bnJpc2V8ZW58MHx8MHx8) ;
+  background-size: cover;
+  background-position: bottom;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid blue;
 }
 
 .hours {

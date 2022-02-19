@@ -173,87 +173,90 @@ function loadDisplayColors() {
   var seventeenPM = document.getElementById("seventeenPM");
   var now = new Date().getHours();
 
+  var red = "#ff6961";
+  var gray = "#d3d3d3"
+  var green = "#77dd77"
 
   if (now === 9) {
-    nineAM.style.backgroundColor = "#ff6961";
+    nineAM.style.backgroundColor = red;
   }
   if (now > 9) {
-    nineAM.style.backgroundColor = "#77dd77";
+    nineAM.style.backgroundColor = gray;
   }
   if (now < 9) {
-    nineAM.style.backgroundColor = "#d3d3d3";
+    nineAM.style.backgroundColor = green;
   }
   if (now === 10) {
-    tenAM.style.backgroundColor = "#ff6961";
+    tenAM.style.backgroundColor = red;
   }
   if (now > 10) {
-    tenAM.style.backgroundColor = "#77dd77";
+    tenAM.style.backgroundColor = gray;
   }
   if (now < 10) {
-    tenAM.style.backgroundColor = "#d3d3d3";
+    tenAM.style.backgroundColor = green;
   }
   if (now === 11) {
-    elevenAM.style.backgroundColor = "#ff6961";                                     
+    elevenAM.style.backgroundColor = red;                                     
   }
   if (now > 11) {                                                                   
-    elevenAM.style.backgroundColor = "#77dd77";
+    elevenAM.style.backgroundColor = gray;
   }                                                                                 
   if (now < 11) {
-    elevenAM.style.backgroundColor = "#d3d3d3";
+    elevenAM.style.backgroundColor = green;
   }
   if (now === 12) {
-    twelvePM.style.backgroundColor = "#ff6961";
+    twelvePM.style.backgroundColor = red;
   }
   if (now > 12) {
-    twelvePM.style.backgroundColor = "#77dd77";
+    twelvePM.style.backgroundColor = gray;
   }
   if (now < 12) {
-    twelvePM.style.backgroundColor = "#d3d3d3";
+    twelvePM.style.backgroundColor = green;
   }
   if (now === 13) {
-    thirteenPM.style.backgroundColor = "#ff6961";
+    thirteenPM.style.backgroundColor = red;
   }
   if (now > 13) {
-    thirteenPM.style.backgroundColor = "#77dd77";
+    thirteenPM.style.backgroundColor = gray;
   }
   if (now < 13) {
-    thirteenPM.style.backgroundColor = "#d3d3d3";
+    thirteenPM.style.backgroundColor = green;
   }
   if (now === 14) {
-    fourteenPM.style.backgroundColor = "#ff6961";
+    fourteenPM.style.backgroundColor = red;
   }
   if (now > 14) {
-    fourteenPM.style.backgroundColor = "#77dd77";
+    fourteenPM.style.backgroundColor = gray;
   }
   if (now < 14) {
-    fourteenPM.style.backgroundColor = "#d3d3d3";
+    fourteenPM.style.backgroundColor = green;
   }
   if (now === 15) {
-    fifteenPM.style.backgroundColor = "#ff6961";
+    fifteenPM.style.backgroundColor = red;
   }
   if (now > 15) {
-    fifteenPM.style.backgroundColor = "#77dd77";
+    fifteenPM.style.backgroundColor = gray;
   }
   if (now < 15) {
-    fifteenPM.style.backgroundColor = "#d3d3d3";
+    fifteenPM.style.backgroundColor = green;
   }
   if (now === 16) {
-    sixteenPM.style.backgroundColor = "#ff6961";
+    sixteenPM.style.backgroundColor = red;
   }
   if (now > 16) {
-    sixteenPM.style.backgroundColor = "#77dd77";
+    sixteenPM.style.backgroundColor = gray;
   }
   if (now < 16) {
-    sixteenPM.style.backgroundColor = "#d3d3d3";
+    sixteenPM.style.backgroundColor = green;
   }
   if (now === 17) {
-    seventeenPM.style.backgroundColor = "#ff6961";
+    seventeenPM.style.backgroundColor = red;
   }
   if (now > 17) {
-    seventeenPM.style.backgroundColor = "#77dd77";
+    seventeenPM.style.backgroundColor = gray;
   }
   if (now < 17) {
-    seventeenPM.style.backgroundColor = "#d3d3d3";
+    seventeenPM.style.backgroundColor = green;
   }
 }
 
