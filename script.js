@@ -1,15 +1,3 @@
-//function that displays current day at the top
-
-//write function that saves input to local storage
-
-//write function that GETS input from local storage
-
-//write a function that will display input data on to the screen
-
-//write a function that will change colors based on time
-
-////////////////////////////////////////////////////////
-
 var savedDataNine = document.getElementById("savedDataNine");
 var savedDataTen = document.getElementById("savedDataTen");
 var savedDataEleven = document.getElementById("savedDataEleven");
@@ -111,13 +99,11 @@ function storeInputSeventeen() {
 
 //function that displays the date and time
 function clock() {
-  // clockElement.textContent = new Date().toLocaleString();
   clockElement.textContent =
     moment().format("dddd") + " " + moment().format("MMMM Do YYYY, h:mm:ss a");
 }
 setInterval(clock, 1000);
 
-///////////////////////////
 function loadData() {
   var nineData = localStorage.getItem("nine");
   if (nineData !== null) {
@@ -172,20 +158,102 @@ function loadData() {
     savedDataSeventeen.textContent = seventeenData;
   }
 }
+
 loadData();
 
-/////////////////////////////////
-
 function loadDisplayColors() {
-  var nine = document.getElementById("nineAM");
+  var nineAM = document.getElementById("nineAM");
+  var tenAM = document.getElementById("tenAM");
+  var elevenAM = document.getElementById("elevenAM");
+  var twelvePM = document.getElementById("twelvePM");
+  var thirteenPM = document.getElementById("thirteenPM");
+  var fourteenPM = document.getElementById("fourteenPM");
+  var fifteenPM = document.getElementById("fifteenPM");
+  var sixteenPM = document.getElementById("sixteenPM");
+  var seventeenPM = document.getElementById("seventeenPM");
+
   var now = new Date().getHours();
-  var test = now - 5;
-  console.log(now, test);
-  if (test < 17) {
-    nine.style.backgroundColor = "#d3d3d3";
+  if (now === 9) {
+    nineAM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 9) {
+    nineAM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 9) {
+    nineAM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 10) {
+    tenAM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 10) {
+    tenAM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 10) {
+    tenAM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 11) {
+    elevenAM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 11) {
+    elevenAM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 11) {
+    elevenAM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 12) {
+    twelvePM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 12) {
+    twelvePM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 12) {
+    twelvePM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 13) {
+    thirteenPM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 13) {
+    thirteenPM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 13) {
+    thirteenPM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 14) {
+    fourteenPM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 14) {
+    fourteenPM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 14) {
+    fourteenPM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 15) {
+    fifteenPM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 15) {
+    fifteenPM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 15) {
+    fifteenPM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 16) {
+    sixteenPM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 16) {
+    sixteenPM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 16) {
+    sixteenPM.style.backgroundColor = "#d3d3d3";
+  }
+  if (now === 17) {
+    seventeenPM.style.backgroundColor = "#ff6961";
+  }
+  if (now > 17) {
+    seventeenPM.style.backgroundColor = "#77dd77";
+  }
+  if (now < 17) {
+    seventeenPM.style.backgroundColor = "#d3d3d3";
   }
 }
 
 loadDisplayColors();
-
-
