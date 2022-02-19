@@ -33,10 +33,6 @@ body {
   color: blue;
 }
 
-.box {
-  padding: 5px;
-}
-
 .listItems {
   list-style: none;
 }
@@ -44,3 +40,12 @@ body {
 .display-3 {
   color: blue;
 }
+
+.form-control{
+  width: 200px
+}
+
+.time {
+  width: 75px;
+}
+

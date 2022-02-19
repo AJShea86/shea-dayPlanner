@@ -173,6 +173,7 @@ function loadDisplayColors() {
   var seventeenPM = document.getElementById("seventeenPM");
   var now = new Date().getHours();
 
+
   if (now === 9) {
     nineAM.style.backgroundColor = "#ff6961";
   }
@@ -192,11 +193,11 @@ function loadDisplayColors() {
     tenAM.style.backgroundColor = "#d3d3d3";
   }
   if (now === 11) {
-    elevenAM.style.backgroundColor = "#ff6961";
+    elevenAM.style.backgroundColor = "#ff6961";                                     
   }
-  if (now > 11) {
+  if (now > 11) {                                                                   
     elevenAM.style.backgroundColor = "#77dd77";
-  }
+  }                                                                                 
   if (now < 11) {
     elevenAM.style.backgroundColor = "#d3d3d3";
   }
