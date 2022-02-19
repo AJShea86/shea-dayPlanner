@@ -171,8 +171,8 @@ function loadDisplayColors() {
   var fifteenPM = document.getElementById("fifteenPM");
   var sixteenPM = document.getElementById("sixteenPM");
   var seventeenPM = document.getElementById("seventeenPM");
-
   var now = new Date().getHours();
+
   if (now === 9) {
     nineAM.style.backgroundColor = "#ff6961";
   }
