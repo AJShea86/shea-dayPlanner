@@ -71,10 +71,13 @@ textarea {
 }
 
 .hours {
-   width: 80vw;
+  width: 80vw;
   background-color: lightgreen;
   border: 3px solid blue; 
   margin: 5px;  
+  padding: 5px;
+  display: flex;
+  align-items: center;
 
 }
 
@@ -89,8 +92,11 @@ textarea {
 
 .box {
   padding: 5px;
+ 
+
 }
 
-.hours {
-  padding: 10px;
+.listItems {
+  list-style: none;
+
 }
